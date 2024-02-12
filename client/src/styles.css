@@ -1,0 +1,22 @@
+.appBar{
+    border-radius: 15px;
+    margin : 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    color: rgba(0,183,255, 1);
+    padding: 10px;
+  }
+  .image {
+    margin-left : 15px;
+  }
+@media only screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 600px) {
+    .mainContainer{
+      flex-direction: column-reverse;
+    }
+}

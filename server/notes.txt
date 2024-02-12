@@ -1,0 +1,8 @@
+SERVER
+
+1) We use type : module because we can use files with ES-Module syntax
+ES module enables us to use files with "import-export" syntax
+Common JS modules we need to use const express = require('express')
+--> ES Module Syntax is more familiar and easy.
+
+2)
